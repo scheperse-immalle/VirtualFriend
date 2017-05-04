@@ -41,12 +41,12 @@ namespace VirualFriend
             int leeftijd = Convert.ToInt32(Console.ReadLine());
             if (leeftijd < 18)
             {
-                Console.WriteLine("Computer zegt : U bent {0} jaar en bent dus nog niet volwasse.", leeftijd);
+                Console.WriteLine("Computer zegt : U bent {0} jaar en bent dus nog niet volwassen.", leeftijd);
 
             }
             else
             {
-                Console.WriteLine("Computer zegt : U bent {0} jaar en bent dus volwasse.", leeftijd);
+                Console.WriteLine("Computer zegt : U bent {0} jaar en bent dus volwassen.", leeftijd);
             }
             Console.WriteLine("Computer zegt : Wilt u praten met een virtuele vriend? ");
             Console.Write("{0} zegt : ", naam);
