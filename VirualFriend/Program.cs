@@ -73,7 +73,7 @@ namespace VirualFriend
                         string gevoel = Console.ReadLine();
                         if (gevoel.ToLower().Contains("ja"))
                         {
-                            Console.Write("Eric zegt : Wat goed! Ik vindt het echt leuk dat het goed gaat met je. Om eerlijk te zijn vindt ik jou nu al leuk! Wat zijn je hobby's? "); Console.Write("{0} zegt : ", naam);
+                            Console.WriteLine("Eric zegt : Wat goed! Ik vindt het echt leuk dat het goed gaat met je. Om eerlijk te zijn vindt ik jou nu al leuk! Wat zijn je hobby's? "); Console.Write("{0} zegt : ", naam);
                             Console.Write("{0} zegt : ", naam);
                             string hobby0 = Console.ReadLine();
                             if (hobby0 == hobby0)
@@ -82,7 +82,7 @@ namespace VirualFriend
                                 string yorn = Console.ReadLine();
                                 if (yorn.ToLower().Contains("ja"))
                                 {
-                                    Console.Write("Eric zegt : Wat jammer, ik begon namelijk gevoelens voor je te krijgen. Maar we kunnen nog steeds vrienden zijn toch{0}? ", naam);
+                                    Console.WriteLine("Eric zegt : Wat jammer, ik begon namelijk gevoelens voor je te krijgen. Maar we kunnen nog steeds vrienden zijn toch{0}? ", naam);
                                     Console.Write("{0} zegt : ", naam);
                                     string vriend = Console.ReadLine();
                                     if (vriend.ToLower().Contains("ja"))
@@ -110,7 +110,7 @@ namespace VirualFriend
 
                         else
                         {
-                            Console.Write("Eric zegt : Wat jammer {0}! Ik vindt het echt er voor je, maar om eerlijk te zijn vindt ik jou nu al leuk! Wat zijn je hobby's? ", naam);
+                            Console.WriteLine("Eric zegt : Wat jammer {0}! Ik vindt het echt er voor je, maar om eerlijk te zijn vindt ik jou nu al leuk! Wat zijn je hobby's? ", naam);
                             Console.Write("{0} zegt : ", naam);
                             string hobby1 = Console.ReadLine();
                             if (hobby1 == hobby1)
@@ -121,12 +121,12 @@ namespace VirualFriend
                     }
                     if (leeftijdMan.ToLower().Contains("(tiener"))
                     {
-                        Console.Write("Jonas zegt : Hallo ik ben Jonas en ik ben 17 jaar, Gaat alles goed {0}? ", naam);
+                        Console.WriteLine("Jonas zegt : Hallo ik ben Jonas en ik ben 17 jaar, Gaat alles goed {0}? ", naam);
                         Console.Write("{0} zegt : ", naam);
                         string gevoel = Console.ReadLine();
                         if (gevoel.ToLower().Contains("ja"))
                         {
-                            Console.Write("Jonas zegt : Wat goed! Ik vindt het echt leuk dat het goed gaat met je. Om eerlijk te zijn vindt ik jou nu al leuk! Wat zijn je hobby's? ");
+                            Console.WriteLine("Jonas zegt : Wat goed! Ik vindt het echt leuk dat het goed gaat met je. Om eerlijk te zijn vindt ik jou nu al leuk! Wat zijn je hobby's? ");
                             Console.Write("{0} zegt : ", naam);
                             string hobby2 = Console.ReadLine();
                             if (hobby2 == hobby2)
@@ -136,7 +136,7 @@ namespace VirualFriend
                                 string yorn = Console.ReadLine();
                                 if (yorn.ToLower().Contains("ja"))
                                 {
-                                    Console.Write("Jonas zegt : Wat jammer, ik begon namelijk gevoelens voor je te krijgen. Maar we kunnen nog steeds vrienden zijn toch{0}? ", naam);
+                                    Console.WriteLine("Jonas zegt : Wat jammer, ik begon namelijk gevoelens voor je te krijgen. Maar we kunnen nog steeds vrienden zijn toch{0}? ", naam);
                                     Console.Write("{0} zegt : ", naam);
                                     string vriend = Console.ReadLine();
                                     if (vriend.ToLower().Contains("ja"))
@@ -148,7 +148,7 @@ namespace VirualFriend
                             }
                             else
                             {
-                                Console.Write("Jonas zegt : Wat jammer {0}! Ik vindt het echt er voor je, maar om eerlijk te zijn vindt ik jou nu al leuk! Wat zijn je hobby's? ", naam);
+                                Console.WriteLine("Jonas zegt : Wat jammer {0}! Ik vindt het echt er voor je, maar om eerlijk te zijn vindt ik jou nu al leuk! Wat zijn je hobby's? ", naam);
                                 Console.Write("{0} zegt : ", naam);
                                 string hobby3 = Console.ReadLine();
                                 if (hobby3 == hobby3)
@@ -167,12 +167,12 @@ namespace VirualFriend
                     string leeftijdVrouw = Console.ReadLine();
                     if (leeftijdVrouw.ToLower().Contains("volwasse"))
                     {
-                        Console.Write("Sarah zegt : Hallo ik ben Sarah en ik ben 24 jaar, Gaat alles goed {0}? ", naam);
+                        Console.WriteLine("Sarah zegt : Hallo ik ben Sarah en ik ben 24 jaar, Gaat alles goed {0}? ", naam);
                         Console.Write("{0} zegt : ", naam);
                         string gevoelV = Console.ReadLine();
                         if (gevoelV.ToLower().Contains("ja"))
                         {
-                            Console.Write("Sarah zegt : Wat goed! Ik vindt het echt leuk dat het goed gaat met je. Om eerlijk te zijn vindt ik jou nu al leuk! Wat zijn je hobby's? ");
+                            Console.WriteLine("Sarah zegt : Wat goed! Ik vindt het echt leuk dat het goed gaat met je. Om eerlijk te zijn vindt ik jou nu al leuk! Wat zijn je hobby's? ");
                             Console.Write("{0} zegt : ", naam);
                             string hobby4 = Console.ReadLine();
                             if (hobby4 == hobby4)
@@ -182,7 +182,7 @@ namespace VirualFriend
                                 string yorn = Console.ReadLine();
                                 if (yorn.ToLower().Contains("ja"))
                                 {
-                                    Console.Write("Sarah zegt : Wat jammer, ik begon namelijk gevoelens voor je te krijgen. Maar we kunnen nog steeds vrienden zijn toch{0}? ", naam);
+                                    Console.WriteLine("Sarah zegt : Wat jammer, ik begon namelijk gevoelens voor je te krijgen. Maar we kunnen nog steeds vrienden zijn toch{0}? ", naam);
                                     Console.Write("{0} zegt : ", naam);
                                     string vriend = Console.ReadLine();
                                     if (vriend.ToLower().Contains("ja"))
@@ -194,7 +194,7 @@ namespace VirualFriend
                             }
                             else
                             {
-                                Console.Write("Sarah zegt : Wat jammer {0}! Ik vindt het echt er voor je, maar om eerlijk te zijn vindt ik jou nu al leuk! Wat zijn je hobby's?", naam);
+                                Console.WriteLine("Sarah zegt : Wat jammer {0}! Ik vindt het echt er voor je, maar om eerlijk te zijn vindt ik jou nu al leuk! Wat zijn je hobby's?", naam);
                                 Console.Write("{0} zegt : ", naam);
                                 string hobby5 = Console.ReadLine();
                                 if (hobby5 == hobby5)
@@ -222,7 +222,7 @@ namespace VirualFriend
                                 string yorn = Console.ReadLine();
                                 if (yorn.ToLower().Contains("ja"))
                                 {
-                                    Console.Write("Elise zegt : Wat jammer, ik begon namelijk gevoelens voor je te krijgen. Maar we kunnen nog steeds vrienden zijn toch{0}? ", naam);
+                                    Console.WriteLine("Elise zegt : Wat jammer, ik begon namelijk gevoelens voor je te krijgen. Maar we kunnen nog steeds vrienden zijn toch{0}? ", naam);
                                     Console.Write("{0} zegt : ", naam);
                                     string vriend = Console.ReadLine();
                                     if (vriend.ToLower().Contains("ja"))
@@ -235,7 +235,7 @@ namespace VirualFriend
                         }
                         else
                         {
-                            Console.Write("Elise zegt : Wat jammer {0}! Ik vindt het echt er voor je, maar om eerlijk te zijn vindt ik jou nu al leuk! Wat zijn je hobby's? ", naam);
+                            Console.WriteLine("Elise zegt : Wat jammer {0}! Ik vindt het echt er voor je, maar om eerlijk te zijn vindt ik jou nu al leuk! Wat zijn je hobby's? ", naam);
                             Console.Write("{0} zegt : ", naam);
                             string hobby7 = Console.ReadLine();
                             if (hobby7 == hobby7)
