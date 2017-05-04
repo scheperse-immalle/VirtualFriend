@@ -82,7 +82,7 @@ namespace VirualFriend
                                 string yorn = Console.ReadLine();
                                 if (yorn.ToLower().Contains("ja"))
                                 {
-                                    Console.WriteLine("Eric zegt : Wat jammer, ik begon namelijk gevoelens voor je te krijgen. Maar we kunnen nog steeds vrienden zijn toch{0}? ", naam);
+                                    Console.WriteLine("Eric zegt : Wat jammer, ik begon namelijk gevoelens voor je te krijgen. Maar we kunnen nog steeds vrienden zijn toch {0}? ", naam);
                                     Console.Write("{0} zegt : ", naam);
                                     string vriend = Console.ReadLine();
                                     if (vriend.ToLower().Contains("ja"))
@@ -136,7 +136,7 @@ namespace VirualFriend
                                 string yorn = Console.ReadLine();
                                 if (yorn.ToLower().Contains("ja"))
                                 {
-                                    Console.WriteLine("Jonas zegt : Wat jammer, ik begon namelijk gevoelens voor je te krijgen. Maar we kunnen nog steeds vrienden zijn toch{0}? ", naam);
+                                    Console.WriteLine("Jonas zegt : Wat jammer, ik begon namelijk gevoelens voor je te krijgen. Maar we kunnen nog steeds vrienden zijn toch {0}? ", naam);
                                     Console.Write("{0} zegt : ", naam);
                                     string vriend = Console.ReadLine();
                                     if (vriend.ToLower().Contains("ja"))
@@ -182,7 +182,7 @@ namespace VirualFriend
                                 string yorn = Console.ReadLine();
                                 if (yorn.ToLower().Contains("ja"))
                                 {
-                                    Console.WriteLine("Sarah zegt : Wat jammer, ik begon namelijk gevoelens voor je te krijgen. Maar we kunnen nog steeds vrienden zijn toch{0}? ", naam);
+                                    Console.WriteLine("Sarah zegt : Wat jammer, ik begon namelijk gevoelens voor je te krijgen. Maar we kunnen nog steeds vrienden zijn toch {0}? ", naam);
                                     Console.Write("{0} zegt : ", naam);
                                     string vriend = Console.ReadLine();
                                     if (vriend.ToLower().Contains("ja"))
@@ -222,7 +222,7 @@ namespace VirualFriend
                                 string yorn = Console.ReadLine();
                                 if (yorn.ToLower().Contains("ja"))
                                 {
-                                    Console.WriteLine("Elise zegt : Wat jammer, ik begon namelijk gevoelens voor je te krijgen. Maar we kunnen nog steeds vrienden zijn toch{0}? ", naam);
+                                    Console.WriteLine("Elise zegt : Wat jammer, ik begon namelijk gevoelens voor je te krijgen. Maar we kunnen nog steeds vrienden zijn toch {0}? ", naam);
                                     Console.Write("{0} zegt : ", naam);
                                     string vriend = Console.ReadLine();
                                     if (vriend.ToLower().Contains("ja"))
