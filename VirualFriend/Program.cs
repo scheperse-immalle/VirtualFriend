@@ -106,6 +106,8 @@ namespace VirualFriend
                                 }
                             }
                         }
+
+
                         else
                         {
                             Console.Write("Eric zegt : Wat jammer {0}! Ik vindt het echt er voor je, maar om eerlijk te zijn vindt ik jou nu al leuk! Wat zijn je hobby's? ", naam);
@@ -156,98 +158,104 @@ namespace VirualFriend
                             }
                         }
                     }
-                    if (geslacht.ToLower().Contains("vrouw"))
+                }
+
+                if (geslacht.ToLower().Contains("vrouw"))
+                {
+                    Console.WriteLine("Computer zegt : U hebt gekozen voor een vrouw, Wilt u praten met een volwasse vrouw of een Tiener?");
+                    Console.Write("{0} zegt : ", naam);
+                    string leeftijdVrouw = Console.ReadLine();
+                    if (leeftijdVrouw.ToLower().Contains("volwasse"))
                     {
-                        Console.WriteLine("Computer zegt : U hebt gekozen voor een vrouw, Wilt u praten met een volwasse vrouw of een Tiener?");
+                        Console.Write("Sarah zegt : Hallo ik ben Sarah en ik ben 24 jaar, Gaat alles goed {0}? ", naam);
                         Console.Write("{0} zegt : ", naam);
-                        string leeftijdVrouw = Console.ReadLine();
-                        if (leeftijdVrouw.ToLower().Contains("volwasse"))
+                        string gevoelV = Console.ReadLine();
+                        if (gevoelV.ToLower().Contains("ja"))
                         {
-                            Console.Write("Sarah zegt : Hallo ik ben Sarah en ik ben 24 jaar, Gaat alles goed {0}? ", naam);
+                            Console.Write("Sarah zegt : Wat goed! Ik vindt het echt leuk dat het goed gaat met je. Om eerlijk te zijn vindt ik jou nu al leuk! Wat zijn je hobby's? ");
                             Console.Write("{0} zegt : ", naam);
-                            string gevoelV = Console.ReadLine();
-                            if (gevoelV.ToLower().Contains("ja"))
+                            string hobby4 = Console.ReadLine();
+                            if (hobby4 == hobby4)
                             {
-                                Console.Write("Sarah zegt : Wat goed! Ik vindt het echt leuk dat het goed gaat met je. Om eerlijk te zijn vindt ik jou nu al leuk! Wat zijn je hobby's? ");
+                                Console.WriteLine("Sarah zegt : Wauw! {1}! Je bent echt een intressant persoon {0}! Heeft u een relatie?", naam, hobby4);
                                 Console.Write("{0} zegt : ", naam);
-                                string hobby4 = Console.ReadLine();
-                                if (hobby4 == hobby4)
+                                string yorn = Console.ReadLine();
+                                if (yorn.ToLower().Contains("ja"))
                                 {
-                                    Console.WriteLine("Sarah zegt : Wauw! {1}! Je bent echt een intressant persoon {0}! Heeft u een relatie?", naam, hobby4);
+                                    Console.Write("Sarah zegt : Wat jammer, ik begon namelijk gevoelens voor je te krijgen. Maar we kunnen nog steeds vrienden zijn toch{0}? ", naam);
                                     Console.Write("{0} zegt : ", naam);
-                                    string yorn = Console.ReadLine();
-                                    if (yorn.ToLower().Contains("ja"))
+                                    string vriend = Console.ReadLine();
+                                    if (vriend.ToLower().Contains("ja"))
                                     {
-                                        Console.Write("Sarah zegt : Wat jammer, ik begon namelijk gevoelens voor je te krijgen. Maar we kunnen nog steeds vrienden zijn toch{0}? ", naam);
-                                        Console.Write("{0} zegt : ", naam);
-                                        string vriend = Console.ReadLine();
-                                        if (vriend.ToLower().Contains("ja"))
-                                        {
-                                            Console.WriteLine("Sarah zegt : Gelukkig, al verdien je wel iemand zo als mij. Je weet dat je altijd bij mij terecht kan als je ergens over wilt praten! ");
+                                        Console.WriteLine("Sarah zegt : Gelukkig, al verdien je wel iemand zo als mij. Je weet dat je altijd bij mij terecht kan als je ergens over wilt praten! ");
 
-                                        }
                                     }
                                 }
-                                else
-                                {
-                                    Console.Write("Sarah zegt : Wat jammer {0}! Ik vindt het echt er voor je, maar om eerlijk te zijn vindt ik jou nu al leuk! Wat zijn je hobby's?", naam);
-                                    Console.Write("{0} zegt : ", naam);
-                                    string hobby5 = Console.ReadLine();
-                                    if (hobby5 == hobby5)
-                                    {
-                                        Console.WriteLine("Sarah zegt : Wauw! {1}! Je bent echt een intressant persoon {0}! Ik moet wel door, ik ga mijn haar laten kleuren bij de kapper. Hopelijk hoor ik je nog eens! ;)", naam, hobby5);
-                                    }
-                                }
-
                             }
-                            if (leeftijdVrouw.ToLower().Contains("tiener"))
+                            else
                             {
-                                Console.Write("Elise zegt : Hallo ik ben Elise en ik ben 16 jaar, Gaat alles goed {0}? ", naam);
+                                Console.Write("Sarah zegt : Wat jammer {0}! Ik vindt het echt er voor je, maar om eerlijk te zijn vindt ik jou nu al leuk! Wat zijn je hobby's?", naam);
                                 Console.Write("{0} zegt : ", naam);
-                                string gevoel = Console.ReadLine();
-                                if (gevoel.ToLower().Contains("ja"))
+                                string hobby5 = Console.ReadLine();
+                                if (hobby5 == hobby5)
                                 {
-                                    Console.Write("Elise zegt : Wat goed! Ik vindt het echt leuk dat het goed gaat met je. Om eerlijk te zijn vindt ik jou nu al leuk! Wat zijn je hobby's? ");
-                                    Console.Write("{0} zegt : ", naam);
-                                    string hobby6 = Console.ReadLine();
-                                    if (hobby6 == hobby6)
-                                    {
-                                        Console.WriteLine("Elise zegt : Wauw! {1} Je bent echt een intressant persoon {0}! Heeft u een relatie?", naam, hobby6);
-                                        Console.Write("{0} zegt : ", naam);
-                                        string yorn = Console.ReadLine();
-                                        if (yorn.ToLower().Contains("ja"))
-                                        {
-                                            Console.Write("Elise zegt : Wat jammer, ik begon namelijk gevoelens voor je te krijgen. Maar we kunnen nog steeds vrienden zijn toch{0}? ", naam);
-                                            Console.Write("{0} zegt : ", naam);
-                                            string vriend = Console.ReadLine();
-                                            if (vriend.ToLower().Contains("ja"))
-                                            {
-                                                Console.WriteLine("Elise zegt : Gelukkig, al verdien je wel iemand zo als mij. Je weet dat je altijd bij mij terecht kan als je ergens over wilt praten! ");
+                                    Console.WriteLine("Sarah zegt : Wauw! {1}! Je bent echt een intressant persoon {0}! Ik moet wel door, ik ga mijn haar laten kleuren bij de kapper. Hopelijk hoor ik je nog eens! ;)", naam, hobby5);
+                                }
+                            }
 
-                                            }
-                                        }
-                                        else
-                                        {
-                                            Console.Write("Elise zegt : Wat jammer {0}! Ik vindt het echt er voor je, maar om eerlijk te zijn vindt ik jou nu al leuk! Wat zijn je hobby's? ", naam);
-                                            Console.Write("{0} zegt : ", naam);
-                                            string hobby7 = Console.ReadLine();
-                                            if (hobby7 == hobby7)
-                                            {
-                                                Console.WriteLine("Elise zegt : Wauw! {1}! Je bent echt een intressant persoon {0}! Ik moet wel door, ik ga shoppen met een vriendin. Hopelijk hoor ik je nog eens!", naam, hobby7);
-                                            }
-                                        }
+                        }
+                    }
+                        if (leeftijdVrouw.ToLower().Contains("tiener"))
+                        {
+                            Console.WriteLine("Elise zegt : Hallo ik ben Elise en ik ben 16 jaar, Gaat alles goed {0}? ", naam);
+                            Console.Write("{0} zegt : ", naam);
+                            string gevoel = Console.ReadLine();
+                        if (gevoel.ToLower().Contains("ja"))
+                        {
+                            Console.WriteLine("Elise zegt : Wat goed! Ik vindt het echt leuk dat het goed gaat met je. Om eerlijk te zijn vindt ik jou nu al leuk! Wat zijn je hobby's? ");
+                            Console.Write("{0} zegt : ", naam);
+                            string hobby6 = Console.ReadLine();
+                            if (hobby6 == hobby6)
+                            {
+                                Console.WriteLine("Elise zegt : Wauw! {1} Je bent echt een intressant persoon {0}! Heeft u een relatie?", naam, hobby6);
+                                Console.Write("{0} zegt : ", naam);
+                                string yorn = Console.ReadLine();
+                                if (yorn.ToLower().Contains("ja"))
+                                {
+                                    Console.Write("Elise zegt : Wat jammer, ik begon namelijk gevoelens voor je te krijgen. Maar we kunnen nog steeds vrienden zijn toch{0}? ", naam);
+                                    Console.Write("{0} zegt : ", naam);
+                                    string vriend = Console.ReadLine();
+                                    if (vriend.ToLower().Contains("ja"))
+                                    {
+                                        Console.WriteLine("Elise zegt : Gelukkig, al verdien je wel iemand zo als mij. Je weet dat je altijd bij mij terecht kan als je ergens over wilt praten! ");
+
                                     }
                                 }
-
-
                             }
+                        }
+                        else
+                        {
+                            Console.Write("Elise zegt : Wat jammer {0}! Ik vindt het echt er voor je, maar om eerlijk te zijn vindt ik jou nu al leuk! Wat zijn je hobby's? ", naam);
+                            Console.Write("{0} zegt : ", naam);
+                            string hobby7 = Console.ReadLine();
+                            if (hobby7 == hobby7)
+                            {
+                                Console.WriteLine("Elise zegt : Wauw! {1}! Je bent echt een intressant persoon {0}! Ik moet wel door, ik ga shoppen met een vriendin. Hopelijk hoor ik je nog eens!", naam, hobby7);
+                            }
+                        }
+                                }
+                            }
+
+
                         }
                     }
                 }
             }
-        }
-            }
-        }
+        
+    
+
+            
+        
 
     
 
